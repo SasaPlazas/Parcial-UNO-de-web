@@ -15,8 +15,8 @@ function BooksCard({book}) {
     <>
     <div className='books-card'>
       <p>{book.title}</p>
-      <p>{book.docs.author_name}</p>
-      <p>{book.docs.first_publish_year}</p>
+      <p>{book.author_name}</p>
+      <p>{book.first_publish_year}</p>
       <button>add</button>
     </div>
     
